@@ -30,3 +30,9 @@ macx: {
 
 INCLUDEPATH += $${systemc_home}/include
 LIBS += -L$${systemc_home}/lib-$${systemc_target_arch} -lsystemc
+
+HEADERS += \
+    placeinterface.h \
+    place.h \
+    transition.h \
+    toplevel.h

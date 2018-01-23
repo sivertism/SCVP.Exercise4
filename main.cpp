@@ -1,4 +1,5 @@
 #include <systemc.h>
+#include "toplevel.h"
 
 // Place Interface:
 // TODO
@@ -13,8 +14,7 @@
 
 int sc_main(int argc, char* argv[])
 {
-    // TODO
-
+    toplevel t("t");
     sc_start();
     return 0;
 }
