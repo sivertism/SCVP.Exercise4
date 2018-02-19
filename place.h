@@ -12,7 +12,7 @@ public:
     }
 
     void addTokens(){
-        numTokens += I;
+        numTokens += O;
     }
 
     void removeTokens(){
@@ -20,7 +20,7 @@ public:
     }
 
     bool testTokens() {
-        return (numTokens > 0);
+        return (numTokens >= I);
     }
 
 protected:

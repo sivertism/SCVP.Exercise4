@@ -35,4 +35,7 @@ HEADERS += \
     placeinterface.h \
     place.h \
     transition.h \
-    toplevel.h
+    toplevel.h \
+    mem1.h \
+    subnet.h \
+    twomem.h
